@@ -1,0 +1,6 @@
+{
+  "id": "proxyresourcepack",
+  "name": "ProxyResourcePack",
+  "version": "${version}",
+  "main": "org.astral.proxyresourcepack.ProxyResourcePack"
+}
