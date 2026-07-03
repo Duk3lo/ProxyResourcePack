@@ -25,8 +25,10 @@ public final class ImportCmd implements SubCommand {
         this.logger = logger;
     }
 
-    @Override public String getName() { return "import"; }
-    @Override public String getPermission() { return "proxyresourcepack.admin"; }
+
+    @Override public @NonNull String getName() { return "import"; }
+
+    @Override public @NonNull String getPermission() { return "proxyresourcepack.admin"; }
 
     @Override
     public void execute(CommandSource source, String @NonNull [] args) {
