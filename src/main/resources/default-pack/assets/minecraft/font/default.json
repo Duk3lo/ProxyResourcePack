@@ -8,6 +8,15 @@
       "chars": [
         "\uE001"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/logo_horror.png",
+      "ascent": 38,
+      "height": 44,
+      "chars": [
+        "\uE002"
+      ]
     }
   ]
 }
