@@ -58,7 +58,9 @@ public final class SetupManager {
         String[] filesToZip = {
                 "pack.mcmeta",
                 "assets/minecraft/font/default.json",
-                "assets/minecraft/textures/font/logo.png"
+                "assets/minecraft/textures/font/logo.png",
+                "assets/minecraft/textures/font/logo_horror.png"
+
         };
 
         try (ZipOutputStream zos = new ZipOutputStream(Files.newOutputStream(targetZip))) {
